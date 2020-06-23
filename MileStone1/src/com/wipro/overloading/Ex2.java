@@ -34,13 +34,13 @@ class Square extends Shape{
 }
 public class Ex2 {
 	public static void main(String args[]) {
-		Circle c=new Circle();
+		Shape c=new Circle();
 		c.draw();
 		c.erase();
-		Triangle t=new Triangle();
+		Shape t=new Triangle();
 		t.draw();
 		t.erase();
-		Square s=new Square();
+		Shape s=new Square();
 		s.draw();
 		s.erase();
 	}
