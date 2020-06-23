@@ -19,9 +19,9 @@ class Orange extends Fruit{
 }
 public class Ex1 {
 	public static void main(String args[]) {
-		Apple a=new Apple();
+		Fruit a=new Apple();
 		a.eat();
-		Orange o=new Orange();
+		Fruit o=new Orange();
 		o.eat();
 	}
 }
